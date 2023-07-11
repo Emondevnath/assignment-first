@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato" , sans-serif;
+    font-family: 'open Sans' , sans-serif;
+    background-color: #FFFFFFFf;
+
+}
+/* first section style */
+
+.first-section-container{
+    display: flex;
+    background-color:rgba(229, 84, 115, 0.10);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 220px;
+
+}
+.first-section-text{
+    justify-content:center ;
+}
+.f-s-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+
+}
+
+.first-flower{
+    margin-bottom: -5px;
+}
+
+/* second-section-style */
+
+.second-section-title{
+    margin-top: 100px ;
+}
+.second-section-description,
+ .second-section-title{
+    text-align: center;
+    
+}
+
+.second-section-container{
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 80px;
+    align-items: center;
+    gap: 12;
+  
+}
+
+.second-image{
+    width: 210px;
+    height: 328px;
+    padding: 100px 0px;
+    
+    justify-items: center;
+    margin:0px 45px;
+}
+
+
+
+.box1{
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.box2{
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.box3{
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* third section container style */
+
+.third-section-container{
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 90px auto;
+    align-items: center;
+}
+
+.pic1{
+  text-align: center;
+}
+
+/* fourth section style */
+
+.fourth-section-container{
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    
+}
+
+
+
+#special{
+    color: #E55473;
+}
