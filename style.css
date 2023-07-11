@@ -122,3 +122,83 @@ body{
 #special{
     color: #E55473;
 }
+
+/* 
+five section style */
+
+.five-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 600px; 
+     
+}
+.flower-pic{
+    margin:0px 50px;
+}
+
+/* six section style */
+
+
+
+
+.six-section-container{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+     height: 449px;
+    background-image: url('Flower asset/Rectangle\ 9.png');
+    align-items: center;
+    margin: 50px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-title,
+.bg-desc{
+    text-align: center;
+}
+
+
+input[type=email]{
+    height: 35px;
+    width: 500px;
+    border: none;
+    padding: 5px 50px;
+    border-radius: 8px;
+}
+
+input[type=button]{
+    padding: 15px 35px;
+    background-color:#E55473 ;
+    color: #FFffff;
+    border: none;
+    border-radius: 8px;
+}
+
+/* start footer section */
+
+footer{
+    height: 450px;
+    width: auto;
+    text-align: center;
+    background-color:black;
+}
+.footer-container{
+   margin-top: 100px;
+   padding: 100px;
+   color: #FFffff;
+}
+h1
+.footer-color{
+    color: #E55473;
+}
+.paragraph{
+    color:rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+h6{
+    color: gray;
+}
